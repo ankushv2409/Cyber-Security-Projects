@@ -129,6 +129,6 @@ echo "Permissions updated for Finance scripts." >> $REPORT_FILE
 printf "\n" >> $REPORT_FILE
 eval "$finance_list" >> $REPORT_FILE
 printf "\n" >> $REPORT_FILE
-echo "==================== End ====================" >> $REPORT_FILE
+echo "==================== End  ====================" >> $REPORT_FILE
 echo "Script execution completed. Check $REPORT_FILE for details."
 echo "Script Complete" >> $REPORT_FILE
